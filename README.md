@@ -13,8 +13,8 @@ A deep learning framework to classify encrypted mobile service traffic (VPN vs. 
 ## 📌 Project Overview
 This project addresses the challenge of identifying encrypted traffic patterns by implementing a complete deep learning pipeline. The system utilizes flow-based statistical features to distinguish between different traffic categories, ensuring user privacy by avoiding payload inspection.
 
-### Phase 2 presentation: [Here]()
-### Phase 3 presentation: [Here]()
+### Phase 2 presentation: [Here](https://github.com/Jaifin-aloor/Encrypted-Traffic-Classification-Using-Deep-Learning/blob/main/Phase2.pdf)
+### Phase 3 presentation: [Here](https://github.com/Jaifin-aloor/Encrypted-Traffic-Classification-Using-Deep-Learning/blob/main/Encrypted%20Traffic%20Classification%20Using%20Deep%20Learning.pdf)
 
 ### Key Features
 * **Three Architectures:** Implemented CNN, LSTM, and Hybrid CNN-LSTM models.

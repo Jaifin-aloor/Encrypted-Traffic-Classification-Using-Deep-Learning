@@ -1,0 +1,29 @@
+dataset:
+  name: "ISCX VPN-NonVPN"
+  url: "https://www.unb.ca/cic/datasets/vpn.html"
+  features:
+    - packet_sizes
+    - interarrival_times
+    - packet_directions
+    - flow_duration
+    - total_bytes_up
+    - total_bytes_down
+
+models:
+  cnn:
+    filters: [32, 64, 128]
+    kernel_size: 3
+    dropout: 0.3
+  lstm:
+    hidden_size: 128
+    num_layers: 2
+    dropout: 0.3
+  hybrid:
+    cnn_filters: [32, 64]
+    lstm_hidden: 128
+
+training:
+  batch_size: 64
+  epochs: 50
+  learning_rate: 0.001
+  device: "mps"
